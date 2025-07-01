@@ -26,13 +26,18 @@ This is a simple Python script that uses Google's Gemini API to generate best-pr
    ```bash
    git clone https://github.com/AbhiR-03/AI_Assisted_DevOps.git
    cd Docker-file-Generator
+   ```
 
 2. **Create Virtual Env**
+   ```
    python3 -m venv venv
    source venv/bin/activate  
    venv\Scripts\activate
+   ```
 
 3. **Run**
+   ```
    python3 generate_dockerfile_gemini.py
+   ```
 
 
